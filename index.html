@@ -5,9 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Mi TODO list</h1>
+    <div class="gen-container">
+      <main class="main">
+        <header class="header">
+          <h1 class="title">To-Do List</h1>
+        </header>
+  
+        <div class="list">
+          <div class="settings first-work">
+            <input type="text" class="taskInput" placeholder="New Task">
+            <button class="addTaskButton">Add Task</button> 
+          </div>
+          <ul id="taskList"></ul>
+
+        </div>
+        
+      </main>
+    </div>
+    
+    
     <script src="scripts/script.js"></script>
   </body>
 </html>
